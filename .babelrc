@@ -1,0 +1,17 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    [
+      // babel-plugin-import for antd components
+      // This plugin modifies the imports done in this way
+      // import { Select } from 'antd'
+      // To only import the relevant component and styles, not the whole library
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css"
+      }
+    ]
+  ]
+}
