@@ -36,9 +36,11 @@ module.exports = {
             loader: "less-loader",
             options: {
               modifyVars: {
-                "primary-color": "green",
-                "link-color": "green",
-                "font-family": "serif"
+                hack: `true; @import "${path.resolve(
+                  __dirname,
+                  "../",
+                  "theme.less"
+                )}";`
               },
               javascriptEnabled: true
             }
