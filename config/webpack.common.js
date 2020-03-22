@@ -35,6 +35,11 @@ module.exports = {
           {
             loader: "less-loader",
             options: {
+              modifyVars: {
+                "primary-color": "green",
+                "link-color": "green",
+                "font-family": "serif"
+              },
               javascriptEnabled: true
             }
           }
