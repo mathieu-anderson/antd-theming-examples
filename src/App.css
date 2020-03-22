@@ -1,6 +1,17 @@
 .App {
   text-align: center;
   margin: 0 30%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  color: blue;
+  font-weight: bold;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 p {
