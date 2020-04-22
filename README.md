@@ -1,3 +1,5 @@
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/mathieu-anderson/antd-theming-examples)
+
 # Ant design theming examples
 
 The simplest examples of actual implementation of theming in ant-design, in a real (in barebone) app.
